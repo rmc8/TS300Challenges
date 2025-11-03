@@ -22,4 +22,8 @@ export function challenge018(): void {
   // TODO: toString(2)で2進数に変換して出力してください
   // TODO: toString(8)で8進数に変換して出力してください
   // TODO: toString(16)で16進数に変換して出力してください
+  const a = 255;
+  console.log(a.toString(2));
+  console.log(a.toString(8));
+  console.log(a.toString(16));
 }

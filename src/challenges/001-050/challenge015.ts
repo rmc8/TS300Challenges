@@ -24,4 +24,8 @@ export function challenge015(): void {
   // TODO: 増やした後の値を出力してください
   // TODO: デクリメント演算子（--）で値を減らしてください
   // TODO: 減らした後の値を出力してください
+  let a = 5;
+  console.log(a);
+  console.log(++a);
+  console.log(--a);
 }

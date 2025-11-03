@@ -24,4 +24,8 @@ export function challenge020(): void {
   // TODO: 複数の数値を用意してください
   // TODO: Math.max()で最大値を求めて出力してください
   // TODO: Math.min()で最小値を求めて出力してください
+  const a = -10;
+  console.log(Math.abs(a));
+  console.log(Math.max(10, 20, 30, 40, 50));
+  console.log(Math.min(10, 20, 30, 40, 50));
 }

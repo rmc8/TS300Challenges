@@ -25,4 +25,11 @@ export function challenge011(): void {
   // TODO: 積（*）を計算して出力してください
   // TODO: 商（/）を計算して出力してください
   // TODO: 剰余（%）を計算して出力してください
+  const a = 20;
+  const b = 10;
+  console.log(a + b);
+  console.log(a - b);
+  console.log(a * b);
+  console.log(a / b);
+  console.log(a % b);
 }

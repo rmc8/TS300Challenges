@@ -28,4 +28,11 @@ export function challenge019(): void {
   // TODO: /=演算子で値を除算してください
   // TODO: %=演算子で剰余を求めてください
   // TODO: 各ステップの結果をconsole.log()で出力してください
+  let a = 10;
+  console.log(a);
+  console.log(a += 5);
+  console.log(a -= 3);
+  console.log(a *= 2);
+  console.log(a /= 4);
+  console.log(a %= 4);
 }

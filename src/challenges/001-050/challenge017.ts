@@ -24,4 +24,10 @@ export function challenge017(): void {
   // TODO: ビットOR（|）の結果を出力してください
   // TODO: ビットXOR（^）の結果を出力してください
   // TODO: 最初の値のビットNOT（~）の結果を出力してください
+  const a = 5;
+  const b = 3;
+  console.log(a & b);
+  console.log(a | b);
+  console.log(a ^ b);
+  console.log(~a);
 }

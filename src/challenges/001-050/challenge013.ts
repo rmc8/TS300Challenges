@@ -17,4 +17,7 @@ export function challenge013(): void {
   // TODO: number型の変数を宣言し、値を代入してください（例: 25）
   // TODO: Math.sqrt()を使って平方根を計算してください
   // TODO: 結果をconsole.log()で出力してください
+  const a = 25;
+  const b = Math.sqrt(a);
+  console.log(b);
 }

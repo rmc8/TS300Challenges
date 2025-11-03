@@ -18,4 +18,7 @@ export function challenge012(): void {
   // TODO: Math.pow()を使って2乗を計算してください
   // TODO: 結果をconsole.log()で出力してください
   // ヒント: Math.pow(base, exponent) または base ** exponent
+  const a = 5;
+  const b = Math.pow(a, 2);
+  console.log(b);
 }

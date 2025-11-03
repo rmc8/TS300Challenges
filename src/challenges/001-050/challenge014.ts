@@ -22,4 +22,8 @@ export function challenge014(): void {
   // TODO: Math.ceil()で切り上げた値を出力してください
   // TODO: Math.floor()で切り捨てた値を出力してください
   // TODO: Math.round()で四捨五入した値を出力してください
+  const a = 4.7;
+  console.log(Math.ceil(a));
+  console.log(Math.floor(a));
+  console.log(Math.round(a));
 }

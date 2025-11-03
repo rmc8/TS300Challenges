@@ -19,4 +19,6 @@ export function challenge016(): void {
   // TODO: 三項演算子を使って偶数か奇数かを判定してください
   // TODO: 結果（"偶数" または "奇数"）を出力してください
   // ヒント: num % 2 === 0 ? "偶数" : "奇数"
+  const a = 5;
+  console.log(a % 2 === 0 ? "偶数" : "奇数");
 }

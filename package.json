@@ -12,7 +12,9 @@
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "format": "prettier --write \"**/*.ts\"",
-    "format:check": "prettier --check \"**/*.ts\""
+    "format:check": "prettier --check \"**/*.ts\"",
+    "create-files": "ts-node src/create_file.ts",
+    "create-prompt": "ts-node src/create_prompt.ts"
   },
   "keywords": [
     "typescript",

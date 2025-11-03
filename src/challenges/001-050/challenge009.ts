@@ -13,8 +13,13 @@
  * // 関数内でメッセージを出力するが、値は返さない
  */
 
+function logger(msg: string): void {
+  console.log(msg);
+}
+
 export function challenge009(): void {
   // TODO: void型を返す関数を定義してください
   // TODO: その関数内でメッセージをconsole.log()で出力してください
   // TODO: 定義した関数を呼び出してください
+  logger("Hello, TypeScript!");
 }

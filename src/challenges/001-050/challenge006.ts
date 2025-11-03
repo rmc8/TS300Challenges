@@ -20,4 +20,9 @@ export function challenge006(): void {
   // TODO: let で変数を宣言し、値を代入してください
   // TODO: その変数に再代入してください（成功することを確認）
   // TODO: 結果をconsole.log()で出力してください
+  const a = "a";
+  // a = "b";
+  let b = "b";
+  b = "c";
+  console.log(a, b);
 }

@@ -12,8 +12,13 @@
  * // challenge010(); // この関数を呼び出すと常にエラーがthrowされる
  */
 
+function throwError(): never{
+  throw new Error("エラーが発生しました");
+}
+
 export function challenge010(): never {
   // TODO: 常にエラーをthrowする関数を実装してください
   // TODO: Error オブジェクトを使用してエラーメッセージを含めてください
   // ヒント: throw new Error("エラーメッセージ");
+  throwError();
 }

@@ -20,4 +20,13 @@ export function challenge007(): void {
   // TODO: unknown型の変数を宣言し、異なる型の値を順に代入してください
   // TODO: それぞれの型での操作の違いを確認してください
   // TODO: 結果をconsole.log()で出力してください
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let val1: any = "abc";
+  val1 = 123;
+  val1 = true;
+  let val2: unknown = "abc";
+  val2 = 123;
+  val2 = true;
+  console.log(val1, val2);
+  // anyは型チェックがなく、unknownは型ガードが必要で安全である
 }

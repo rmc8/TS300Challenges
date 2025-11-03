@@ -17,4 +17,6 @@
 export function challenge005(): void {
   // TODO: boolean型の変数を宣言し、trueを代入してください
   // TODO: その値をconsole.log()で出力してください
+  const v: boolean = true;
+  console.log(v);
 }

@@ -17,4 +17,7 @@
 export function challenge004(): void {
   // TODO: 2つのnumber型変数を宣言し、値を代入してください
   // TODO: それらの和を計算し、console.log()で出力してください
+  const a: number = 10;
+  const b: number = 20;
+  console.log(a + b);
 }

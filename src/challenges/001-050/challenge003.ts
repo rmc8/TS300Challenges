@@ -17,4 +17,6 @@
 export function challenge003(): void {
   // TODO: string型の変数に名前を代入してください
   // TODO: テンプレートリテラルを使って「私の名前は${名前}です」と出力してください
+  const name: string = '太郎';
+  console.log(`私の名前は${name}です`);
 }

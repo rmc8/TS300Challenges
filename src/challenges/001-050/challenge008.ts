@@ -20,4 +20,8 @@ export function challenge008(): void {
   // TODO: 型注釈なしで真偽値を代入した変数を宣言してください
   // TODO: エディタで各変数にホバーして、推論された型を確認してください
   // TODO: 結果をconsole.log()で出力してください
+  const a = 123; // number
+  const b = 'abc'; // string
+  const c = true; // bool
+  console.log(a, b, c);
 }

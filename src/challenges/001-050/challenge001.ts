@@ -15,4 +15,5 @@
 
 export function challenge001(): void {
   // TODO: ここに実装を記述してください
+  console.log('Hello, TypeScript!');
 }

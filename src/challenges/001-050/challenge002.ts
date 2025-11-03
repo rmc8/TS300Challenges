@@ -16,4 +16,6 @@
 export function challenge002(): void {
   // TODO: number型の変数を宣言し、10を代入してください
   // TODO: その値をconsole.log()で出力してください
+  const n: number = 10;
+  console.log(n);
 }

@@ -20,4 +20,8 @@ export function challenge021(): void {
   // TODO: 2つのstring型変数を宣言し、値を代入してください（例: "Hello", "World"）
   // TODO: +演算子で連結した結果を出力してください
   // TODO: concat()メソッドで連結した結果を出力してください
+  const a = "Hello";
+  const b = "World";
+  console.log(a + b);
+  console.log(a.concat(b));
 }

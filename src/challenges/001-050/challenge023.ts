@@ -20,4 +20,7 @@ export function challenge023(): void {
   // TODO: string型の変数を宣言し、大文字と小文字が混在する値を代入してください
   // TODO: toUpperCase()で大文字に変換して出力してください
   // TODO: toLowerCase()で小文字に変換して出力してください
+  const a = "Hello, Typescript!";
+  console.log(a.toUpperCase());
+  console.log(a.toLowerCase());
 }

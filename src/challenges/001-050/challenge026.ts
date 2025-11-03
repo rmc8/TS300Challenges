@@ -19,4 +19,6 @@ export function challenge026(): void {
   // TODO: 区切り文字を含むstring型の変数を宣言してください（例: "apple,banana,orange"）
   // TODO: split()で分割してください
   // TODO: 結果の配列をconsole.log()で出力してください
+  const fruits = "apple,banana,orange";
+  console.log(fruits.split(",")); // ["apple", "banana", "orange"]
 }

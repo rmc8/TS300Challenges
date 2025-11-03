@@ -20,4 +20,8 @@ export function challenge029(): void {
   // TODO: split()またはmatch()を使って出現回数を数えてください
   // TODO: 結果をconsole.log()で出力してください
   // ヒント: str.split(char).length - 1 または str.match(/char/g)?.length
+  const a = "Hello World";
+  const char = "l";
+  console.log(a.split(char).length - 1);
+  console.log(a.match(new RegExp(char, "g"))?.length);
 }

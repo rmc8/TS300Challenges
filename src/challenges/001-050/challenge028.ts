@@ -20,4 +20,7 @@ export function challenge028(): void {
   // TODO: string型の変数を宣言し、値を代入してください
   // TODO: includes()で特定の文字列を含むか判定して出力してください
   // TODO: indexOf()でその文字列の位置を取得して出力してください
+  const a = "Hello, World!";
+  console.log(a.includes("World")); // true
+  console.log(a.indexOf("World")); // 6
 }

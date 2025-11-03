@@ -19,9 +19,22 @@
  * //   メール: taro@example.com
  */
 
+function output_fmt(attrs: { name: string; age: number; email: string }): void {
+  console.log(`ユーザー情報:
+  名前: ${attrs.name}
+  年齢: ${attrs.age}歳
+  メール: ${attrs.email}`);
+}
+
 export function challenge030(): void {
   // TODO: 複数のstring型・number型変数を宣言してください（名前、年齢、メールなど）
   // TODO: テンプレートリテラルを使って複雑にフォーマットした文字列を作成してください
   // TODO: 複数行の出力を含めてください
   // TODO: 結果をconsole.log()で出力してください
+  const attrs = {
+    name: "太郎",
+    age: 25,
+    email: "taro@example.com",
+  };
+  output_fmt(attrs);
 }

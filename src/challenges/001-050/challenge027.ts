@@ -20,4 +20,7 @@ export function challenge027(): void {
   // TODO: string型の変数を宣言し、値を代入してください
   // TODO: startsWith()で特定の文字列で始まるか判定して出力してください
   // TODO: endsWith()で特定の文字列で終わるか判定して出力してください
+  const a = "Hello, World!";
+  console.log(a.startsWith("Hello")); // true
+  console.log(a.endsWith("!")); // true
 }

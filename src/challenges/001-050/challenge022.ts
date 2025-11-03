@@ -17,4 +17,6 @@ export function challenge022(): void {
   // TODO: string型の変数を宣言し、値を代入してください
   // TODO: lengthプロパティで文字列の長さを取得してください
   // TODO: 結果をconsole.log()で出力してください
+  const a = "Hello, World!";
+  console.log(a.length);
 }

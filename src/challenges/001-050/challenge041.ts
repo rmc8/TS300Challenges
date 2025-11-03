@@ -17,4 +17,5 @@ export function challenge041(): void {
   // TODO: for文を使って1から10まで出力してください
   // TODO: for (let i = 1; i <= 10; i++) の形式を使用してください
   // TODO: 各数値をconsole.log()で出力してください
+  for (let i = 1; i <= 10; i++) console.log(i);
 }

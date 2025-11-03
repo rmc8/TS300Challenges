@@ -18,4 +18,9 @@ export function challenge042(): void {
   // TODO: カウンタ変数を宣言し、初期値を設定してください
   // TODO: while (条件) の形式を使用してください
   // TODO: ループ内でカウンタを更新してください
+  let cnt = 1;
+  while (cnt <= 10) {
+    if (cnt % 2 === 0) console.log(cnt);
+    cnt++;
+  }
 }

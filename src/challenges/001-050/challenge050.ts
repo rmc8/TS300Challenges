@@ -22,4 +22,12 @@ export function challenge050(): void {
   // TODO: for-in文を使ってキーを列挙してください
   // TODO: for (const key in object) の形式を使用してください
   // TODO: 各キーとその値をconsole.log()で出力してください
+  const person = {
+    name: '太郎',
+    age: 25,
+    city: '東京',
+  };
+  for (const key in person) {
+    console.log(`${key}: ${person[key as keyof typeof person]}`);
+  }
 }

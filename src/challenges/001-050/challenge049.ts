@@ -20,4 +20,9 @@ export function challenge049(): void {
   // TODO: for文を使って残りの8項を計算して追加してください
   // TODO: fibonacci[i] = fibonacci[i-1] + fibonacci[i-2] の公式を使用してください
   // TODO: 完成した配列をconsole.log()で出力してください
+  const fibonacci: number[] = [0, 1];
+  while (fibonacci.length < 10) {
+    fibonacci[fibonacci.length] = fibonacci[fibonacci.length - 1] + fibonacci[fibonacci.length - 2]
+  }
+  console.log(fibonacci);
 }

@@ -18,4 +18,8 @@ export function challenge046(): void {
   // TODO: for文を使って1から10までループしてください
   // TODO: 特定の条件（例: i === 3）でcontinueしてください
   // TODO: スキップされない値をconsole.log()で出力してください
+  for (let i = 1; i <= 10; i++) {
+    if (i === 3) continue;
+    console.log(i);
+  }
 }

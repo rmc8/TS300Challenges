@@ -20,4 +20,9 @@ export function challenge043(): void {
   // TODO: do { 処理 } while (条件); の形式を使用してください
   // TODO: カウンタを更新し、特定の条件で終了してください
   // TODO: 各ステップをconsole.log()で出力してください
+  let cnt = 0;
+  do {
+    if (cnt % 3 === 0) console.log(cnt);
+    cnt++;
+  } while (cnt < 10);
 }

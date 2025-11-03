@@ -22,4 +22,9 @@ export function challenge047(): void {
   // TODO: 内側のfor文で1から9までループしてください
   // TODO: i * j の結果を出力してください
   // TODO: 各行を改行で区切ってください
+  for (let i = 1; i <= 9; i++) {
+    for (let j = 1; j <= 9; j++) {
+      console.log(`${i * j} `);
+    }
+  }
 }

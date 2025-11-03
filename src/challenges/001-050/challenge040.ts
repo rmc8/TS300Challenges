@@ -14,9 +14,33 @@
  * // 出力: "赤色です" (Color.Redの場合)
  */
 
+enum Color {
+  Red,
+  Green,
+  Blue,
+}
+
+function judge(color: Color): string {
+  switch (color) {
+    case Color.Red:
+      return "赤色です";
+    case Color.Green:
+      return "緑色です";
+    case Color.Blue:
+      return "青色です";
+  }
+}
+
 export function challenge040(): void {
   // TODO: enumを定義してください（例: Color { Red, Green, Blue }）
   // TODO: enum型の変数を宣言し、値を代入してください
   // TODO: switch文で各enum値に対応する処理を実装してください
   // TODO: 各caseで対応する文字列を出力してください
+  const r = Color.Red;
+  const g = Color.Green;
+  const b = Color.Blue;
+  console.log(judge(r));
+  console.log(judge(g));
+  console.log(judge(b));
+  
 }

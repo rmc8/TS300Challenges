@@ -14,8 +14,15 @@
  * // 出力: "成人です" または "未成年です"
  */
 
+function isAdult(age: number) : string {
+  if (age >= 18) return "成人です";
+  else return "未成年です";
+}
+
 export function challenge032(): void {
   // TODO: number型の変数ageを宣言し、型注釈を付けて値を代入してください
   // TODO: if文で18以上かチェックし、"成人です"と出力してください
   // TODO: else文で"未成年です"と出力してください
+  console.log(isAdult(20));
+  console.log(isAdult(10));
 }

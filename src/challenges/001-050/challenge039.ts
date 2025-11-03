@@ -19,4 +19,9 @@ export function challenge039(): void {
   // TODO: ??演算子を使ってデフォルト値を設定してください
   // TODO: 結果をconsole.log()で出力してください
   // TODO: ||演算子との違いも確認してください（0や""の場合）
+  let value: string | null;
+  // eslint-disable-next-line prefer-const
+  value = null;
+  console.log(value ?? 'デフォルト値');
+  console.log(value || 'デフォルト値');
 }

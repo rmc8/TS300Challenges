@@ -13,9 +13,18 @@
  * // 出力: "正の数" または "負の数" または "0"
  */
 
+function judge(n: number): string {
+  if (n > 0) return "正の数";
+  else if (n < 0) return "負の数";
+  else return "0";
+}
+
 export function challenge031(): void {
   // TODO: number型の変数を宣言し、値を代入してください
   // TODO: if文で0より大きいかチェックし、"正の数"と出力してください
   // TODO: else if文で0より小さいかチェックし、"負の数"と出力してください
   // TODO: else文で"0"と出力してください
+  console.log(judge(10));
+  console.log(judge(-10));
+  console.log(judge(0));
 }

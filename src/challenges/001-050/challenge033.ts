@@ -15,6 +15,14 @@
  * // 基準: A(90-100), B(80-89), C(70-79), D(60-69), F(0-59)
  */
 
+function grade(score: number): string {
+  if (score >= 90) return "A"
+  else if (score >= 80) return "B"
+  else if (score >= 70) return "C"
+  else if (score >= 60) return "D"
+  else return "F"
+}
+
 export function challenge033(): void {
   // TODO: number型の変数scoreを宣言し、値を代入してください
   // TODO: 90以上なら"A"と出力してください
@@ -22,4 +30,9 @@ export function challenge033(): void {
   // TODO: 70以上なら"C"と出力してください
   // TODO: 60以上なら"D"と出力してください
   // TODO: それ以外は"F"と出力してください
+  console.log(grade(90));
+  console.log(grade(80));
+  console.log(grade(70));
+  console.log(grade(60));
+  console.log(grade(50));
 }

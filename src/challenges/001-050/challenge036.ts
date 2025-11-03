@@ -19,4 +19,8 @@ export function challenge036(): void {
   // TODO: 三項演算子を使って大きい方を選択してください
   // TODO: 結果を変数に代入してください（型注釈なしで型推論を確認）
   // TODO: 結果をconsole.log()で出力してください
+  const a = 10;
+  const b = 20;
+  const max = a > b ? a : b;
+  console.log(max);
 }

@@ -19,4 +19,7 @@ export function challenge037(): void {
   // TODO: ネストしたif文で範囲をチェックしてください（例: 10以上20以下）
   // TODO: 範囲内なら"範囲内です"と出力してください
   // TODO: 範囲外なら"範囲外です"と出力してください
+  const x = 15;
+  if (10 <= x && x <= 20) console.log('範囲内です');
+  else console.log('範囲外です');
 }

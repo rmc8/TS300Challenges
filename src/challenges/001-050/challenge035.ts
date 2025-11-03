@@ -21,4 +21,12 @@ export function challenge035(): void {
   // TODO: ||演算子を使った条件をチェックしてください
   // TODO: !演算子を使った条件をチェックしてください
   // TODO: 結果をconsole.log()で出力してください
+  const a = true;
+  const b = false;
+  if (a && b) console.log("条件を満たします");
+  else console.log("条件を満たしません");
+  if (a || b) console.log("条件を満たします");
+  else console.log("条件を満たしません");
+  if (!a) console.log("条件を満たします");
+  else console.log("条件を満たしません");
 }
